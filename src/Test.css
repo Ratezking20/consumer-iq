@@ -1,0 +1,71 @@
+  .container {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 5%;
+
+  }
+
+  #center-buttons {
+    text-align: center;
+  }
+  
+  .option {
+      border: 1px solid rgb(194, 194, 194);
+      background-color: #e0e0e0;
+      padding: 5px;
+      margin: 5px 0;
+      border-radius: 15px;
+      
+    }
+
+    .option input {
+      width: fit-content;
+      float: left;
+    }
+
+    .option label {
+      display: inline-block;
+      
+    }
+    
+  button {
+    margin: 10px;
+   text-align: center;
+  }
+  
+  #next-btn {
+    padding-right: 10px}
+
+  .button {
+        text-align: center;
+        border: solid;
+        border-width: 1px;
+        border-radius: 15px;
+        padding: 5px 10px;
+        background-color: rgb(3, 49, 255);
+        color: white;
+        transition: background-color 0.3s ease;
+      }
+      
+  .next-btn {
+        background-color: #23a819;
+      }
+      
+  .exit-btn {
+        background-color: #e61300;
+      }
+      
+  .next-btn:hover {
+        background-color: #ffffff;
+        border-color: #23a819;
+        color: #23a819;
+      }
+      
+  .exit-btn:hover {
+        background-color: #ffffff;
+        border-color: #e61300;
+        color: #e61300;
+      }
+      
+
+      
